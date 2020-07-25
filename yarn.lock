@@ -1467,6 +1467,21 @@
     sass "^1.18.0"
     stylus "^0.54.5"
 
+"@vue/component-compiler@dword-design/vue-component-compiler#fork":
+  version "4.2.3"
+  resolved "https://codeload.github.com/dword-design/vue-component-compiler/tar.gz/f428eec2731f86664bcd40723ba61a333fd9e8d2"
+  dependencies:
+    "@vue/component-compiler-utils" "^3.0.0"
+    clean-css "^4.1.11"
+    hash-sum "^1.0.2"
+    postcss-modules-sync dword-design/postcss-modules-sync#fork
+    source-map "0.6.*"
+  optionalDependencies:
+    less "^3.9.0"
+    pug "^2.0.3"
+    sass "^1.18.0"
+    stylus "^0.54.5"
+
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.7.11.tgz#b988582cafbb2b095e8b556526f30c90d057cace"
@@ -7980,6 +7995,18 @@ postcss-modules-sync@^1.0.0:
   dependencies:
     generic-names "^1.0.2"
     icss-replace-symbols "^1.0.2"
+    postcss "^5.2.5"
+    postcss-modules-local-by-default "^1.1.1"
+    postcss-modules-scope "^1.0.2"
+    string-hash "^1.1.0"
+
+postcss-modules-sync@dword-design/postcss-modules-sync#fork:
+  version "1.0.0"
+  resolved "https://codeload.github.com/dword-design/postcss-modules-sync/tar.gz/fe138e704dbbe9b37c395854cc74b364760f1a51"
+  dependencies:
+    generic-names "^1.0.2"
+    icss-replace-symbols "^1.0.2"
+    lodash.camelcase "^4.3.0"
     postcss "^5.2.5"
     postcss-modules-local-by-default "^1.1.1"
     postcss-modules-scope "^1.0.2"
